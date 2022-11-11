@@ -109,7 +109,7 @@ class Osc:
         self.pitch = pitch
         self.p = p
 
-    def to_tones(self, freq: float) -> list[Tone]:
+    def to_tones(self, freq: float) -> List[Tone]:
         """Returns the list of tones when `freq` is played"""
 
         # get the list of freqencies of the voices
@@ -184,10 +184,10 @@ class Osc:
 class Synth:
     """A synthesizer that has multiple oscillators."""
 
-    def __init__(self, oscs: list[Osc]):
+    def __init__(self, oscs: List[Osc]):
         self.oscs = oscs
 
-    def get_tones(self, notes: Iterable) -> list[Tone]:
+    def get_tones(self, notes: Iterable) -> List[Tone]:
         """Return the tones produced by synthesizer if notes are played.
          Notes can be a list of note names (str) or frequency (float)"""
         tones = []
@@ -209,7 +209,7 @@ class Synth:
         tones = self.get_tones(notes)
         return self.play_tones(tones, rate, secs)
 
-    def play_tones(self, tones: list[Tone], rate=44100, secs=5) -> Audio:
+    def play_tones(self, tones: List[Tone], rate=44100, secs=5) -> Audio:
         """
         Returns the audio of the tones playing.\n
         `rate`: sampling rate, default is 44100Hz.\n
