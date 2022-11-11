@@ -34,7 +34,7 @@ class Tone:
 
     def get_overtones(
         self, decay: Callable[[float, int], float], n: int
-    ) -> list["Tone"]:
+    ) -> List["Tone"]:
         """
         Returns a list of tone that are overtones of this tone based on decay.\n
         
