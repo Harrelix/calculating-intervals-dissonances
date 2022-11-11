@@ -7,8 +7,10 @@ Here are the graphs generated in `graphs.ipynb`:
 - Heatmap version of dissonance of C4 triads: ![C4 triads heatmap](images/C4%20triads%20heatmap.png?raw=True)
 
 ## References
+Dillon, G. (2013). Calculating the dissonance of a chord according to Helmholtz theory. The European Physical Journal Plus, 128(8), 1-4.
+
 International Organization for Standardization. (2003). Acoustics — Normal equal-loudness-level contours (ISO Standard No. 226:2003). https://www.iso.org/standard/34222.html
 
 Völk, F. (2015). Updated analytical expressions for critical bandwidth and critical-band rate. Fortschritte der Akustik, DAGA 2015, 1181-1184.
 
-Dillon, G. (2013). Calculating the dissonance of a chord according to Helmholtz theory. The European Physical Journal Plus, 128(8), 1-4.
+
