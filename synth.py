@@ -2,7 +2,7 @@ from math import log10, log2
 import numpy as np
 from random import uniform
 from IPython.display import Audio
-from typing import Callable, Iterable
+from typing import Callable, Iterable, List
 
 
 def freq_to_semis_from_c0(f: float) -> float:
