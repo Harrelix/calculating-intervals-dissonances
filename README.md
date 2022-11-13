@@ -1,5 +1,5 @@
 # calculating-intervals-dissonances  
-Python program to graph the dissonance of invervals and triads using [plotly](https://plotly.com).
+Python program to graph the dissonance of intervals and triads using [plotly](https://plotly.com).
   
 Here are the graphs generated in `graphs.ipynb`:  
 - Dissonance of intervals from C4:![intervals from C4](images/intervals%20from%20C4.png?raw=True)
